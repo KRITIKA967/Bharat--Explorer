@@ -1,0 +1,144 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("https://images.unsplash.com/photo-1615445969492-6894df4a5613?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.9);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #ffd700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+header h1 span {
+  color: #ff4081;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #f1f1f1;
+}
+
+/* Search bar */
+.search-bar {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-bar input {
+  padding: 12px 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input::placeholder {
+  color: #555;
+}
+
+/* Trending section */
+.trending h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #fdd835;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.trending-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+.card a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+.card:hover a {
+  color: #1a237e;
+}
+
+/* Map section */
+.map-section {
+  margin-top: 50px;
+}
+
+.map-section h2 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  background: #00000033;
+}
+
+/* Link box (optional CTA) */
+.link-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.link-box a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: rgba(255, 64, 129, 0.85);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link-box a:hover {
+  background-color: rgba(194, 24, 91, 0.9);
+}
