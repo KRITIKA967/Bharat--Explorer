@@ -82,17 +82,19 @@ nav a:hover {
 
 .btn {
   padding: 0.8rem 2rem;
-  background-color: #000000;
+  background-color: #f59e0b;
   color: white;
   font-weight: bold;
   border: none;
   border-radius: 999px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 .btn:hover {
-  background-color: #1406d9;
+  background-color: #d97706;
 }
+
 
 
 .btn:hover {
